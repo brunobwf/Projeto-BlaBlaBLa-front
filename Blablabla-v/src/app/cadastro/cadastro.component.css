@@ -1,0 +1,182 @@
+.voltar {
+    width: 48px;
+    height: 48px;
+    margin-top: 8px;
+    margin-left: 8px;
+    background: rgba(246, 244, 252, 0.67);
+    align-items: center;
+    text-align: start;
+}
+
+a {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+
+.voltar i {
+    margin-top: 20%;
+    margin-left: -30%;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+button:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.fundoFormcadastro {
+    width: 1000px;
+    height: 850px;
+    background: rgba(246, 244, 252, 0.67);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    flex-flow: column nowrap;
+}
+
+.linha1 {
+    margin-top: 2%;
+    padding-bottom: 4%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 57px;
+    /* identical to box height */
+    color: #000000;
+    text-shadow: 8px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.linha2 {
+    margin-left: 4%;
+    height: 157px;
+    align-items: center;
+}
+
+#tipofile {
+    display: none;
+}
+
+.icone-img {
+    width: 157px;
+    height: 140px;
+    background: #FEFEFE;
+    border-radius: 12px;
+    filter: drop-shadow(8px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.custom-file-upload {
+    text-align: center;
+    align-items: center;
+}
+
+.photo-icon {
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 120px;
+}
+
+.photo-icon:hover {
+    cursor: pointer;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+::-webkit-input-placeholder {
+    color: #858585;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#btnVerificar {
+    width: 120px;
+    height: 48px;
+    background: #4A8FE7;
+    box-shadow: 6px 6px 4px #7BAEEF;
+    border-radius: 12px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F6F4FC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bloco1 {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.bloco2 {
+    margin-left: 2%;
+}
+
+label {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 10%;
+}
+
+.ahref {
+    text-decoration: underline;
+    padding-top: 25%;
+    padding-bottom: 8%;
+}
+
+
+a:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+#imagem{
+    width:600px;
+    height:450px;
+}
+
+#btnCadastrar {
+    margin-top: -2%;
+    width: 260px;
+    height: 80px;
+    background: #4A8FE7;
+    box-shadow: 8px 10px 4px #7BAEEF;
+    border-radius: 12px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #F6F4FC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}

@@ -1,0 +1,39 @@
+<!-- Botão de voltar -->
+<div class="d-flex justify-content">
+    <button class="btn rounded-circle voltar" (click)="voltar()"><i class="material-icons">reply</i></button>
+</div>
+<div class="d-flex justify-content-center background w-100 container-fluid">
+    <form [formGroup]="formLogin" (submit)="onSubmit()">
+        <div class="fundoFormLogin d-flex justify-content-center">
+            <!-- Linha entrar -->
+            <div class="row text-center">
+                <div class="col-12 entrarTxt">Entrar</div>
+            </div>
+            <!-- Linha Username -->
+            <div class="row text-center linhaUsername d-flex justify-content-center">
+                <div class="col-1"><i class="material-icons person">person</i></div>
+                <div class="col-6"><input type="text" class="form-control" formControlName="username"
+                        placeholder="nome de usuario"></div>
+            </div>
+            <!-- Linha Senha -->
+            <div class="row text-center linhaPassword d-flex justify-content-center">
+                <div class="col-1"><i class="material-icons vpn_key">vpn_key</i></div>
+                <div class="col-6"><input type="password" class="form-control" formControlName="password"
+                        placeholder="senha"></div>
+            </div>
+            <!-- Linha Botão Entrar-->
+            <div class="row text-center linhaBotao">
+                <div class="col-12"><button type="submit" id="btnEntrar" class="btn">Entrar</button></div>
+            </div>
+            <!-- Linha Botão Esqueceu a senha -->
+            <div class="row text-center linhaBotaoEsqSenha">
+                <div class="col-12"><button type="submit" id="btnEsqSenha" class="btn">Esqueceu a senha</button>
+                </div>
+            </div>
+            <div class="row text-center ahref">
+                <div class="col-12"><a [routerLink]="['../cadastro']" >Não tem uma conta? Registre-se</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

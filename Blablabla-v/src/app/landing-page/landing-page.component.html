@@ -1,0 +1,164 @@
+<!-- PRIMEIRA TELA DA LANDING -->
+<section id="landingPage" class="d-flex">
+    <div id="fundoParteUm" class="d-inline-flex align-middle justify-content-center">
+        <div class="row">
+            <div class="col-4">
+                <img src="../../assets/img/logoText.png" id="imagemLogo">
+            </div>
+        </div>
+        <div class="row h-100 col-7 linhaInicial">
+            <div id="fundoTransparente">
+                <div class="row d-flex justify-content-center">
+                    <p class="h6">Aprenda e divirta-se conversando em inglês</p>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <button id="btnCadasro" [routerLink]="['cadastro']" class="btn">Quero começar a papear!</button>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <button id="btnLogin" [routerLink]="['login']" class="btn">Já possuo conta</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- SEGUNDA TELA DA LANDING -->
+    <div id="fundoParteDois" class="d-flex">
+        <section class="container" id="intuitoPlataforma">
+            <h2>Qual o intuito da plataforma <a>Bla Bla Bla?</a></h2>
+            <p>Atualmente com a avanço tecnológico e a facilidade da informação, as pessoas estão em busca de novos
+                aprendizados, principalmente conhecimentos linguísticos. Seja um nível básico ou avançado, para o
+                turismo ou uso profissional, a língua estrangeira é de suma importância nos dias atuais.
+                Com as novas tecnologias é possível aprimorar o aprendizado em qualquer lugar, por isso empresa Dev2You
+                viu a necessidade de desenvolver um aplicativo mobile e um site para auxiliar e aprimorar o aprendizado
+                das pessoas na língua inglesa.
+            </p>
+            <h3>Objetivo</h3>
+            <ul>
+                <li>Oferecer para os estudantes o primeiro contato com a língua inglesa.</li>
+                <li>Disponibilizar conteúdo de maneira eficaz para estudantes.
+                </li>
+                <li>Incentivar o crescimento acadêmico e profissional das pessoas.
+                </li>
+                <li>Preparar as pessoas para viagens de lazer e turismo em outros países.
+                </li>
+                <li>Capacitar e qualificar profissionais para atuação em seus respectivos trabalhos.
+                </li>
+            </ul>
+        </section>
+
+        <section id="popups" class="container d-flex">
+            <!-- Primeiro PopUp -->
+            <div class="row linhapopups">
+                <div id="pop1" class="pop" data-toggle="modal" data-target="#exampleModalCenter"
+                    (click)="exibirModal(1)">
+                    <div id="elipse1" class="elipse">
+                        <img src="../../assets/img/popup1.png">
+                    </div>
+                    <div id="textoPopup1">
+                        <p>Faça novos amigos</p>
+                    </div>
+                </div>
+                <!-- Segundo PopUp -->
+                <div id="pop2" class="pop" data-toggle="modal" data-target="#exampleModalCenter"
+                    (click)="exibirModal(2)">
+                    <div id="elipse2" class="elipse">
+                    </div>
+                    <div id="textoPopup2">
+                        <p>Treine o seu speak</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row linhapopups">
+                <div id="pop3" class="pop" data-toggle="modal" data-target="#exampleModalCenter"
+                    (click)="exibirModal(3)">
+                    <div id="elipse3" class="elipse">
+                    </div>
+                    <div id="textoPopup3">
+                        <p>Chegue ao topo do ranking</p>
+                    </div>
+                </div>
+
+                <div id="pop4" class="pop" data-toggle="modal" data-target="#exampleModalCenter"
+                    (click)="exibirModal(4)">
+                    <div id="elipse4" class="elipse">
+                    </div>
+                    <div id="textoPopup4">
+                        <p>Divirta-se enquanto aprende</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Parte 3 -->
+
+    <div id="fundoParteTres" class="d-flex">
+        <!-- Seção quem somos -->
+        <section id="quemSomos">
+            <div class="row">
+                <div id="imgQuemSomos" class="col-2">
+                    <img src="../../assets/img/quemSomos.png">
+                </div>
+                <div class="col-10">
+                    <h5>Quem Somos - Dev2You</h5>
+                    <p>Empresa desenvolvedora de soluções digitais formada por um grupo de amigos com o objetivo de
+                        compartilhar conhecimento e desenvolver aplicações intuitivas para os usuários.(<a class="verMais">Ver mais...</a>)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- section só para separação -->
+        <section id="separacao" class="d-flex justify-content-center">
+            <div class="hr"></div>
+        </section>
+
+        <section id="mobile">
+            <div class="row">
+                <div id="imgMobile" class="col-5">
+                    <img src="../../assets/img/mobile.png">
+                </div>
+                <div class="col-7">
+                    <h5>Baixe a plataforma em seu celular</h5>
+
+                    <div>
+                        <div>
+                            <p>Bla Bla Bla sempre ao seu lado! Baixe nosso aplicativo mobile e treine onde e quando você
+                                quiser.
+                                Disponível nas plataformas Android e iOS.
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="../../assets/img/playstore.png" class="appLink">
+                            <img src="../../assets/img/applestore.png" class="appLink">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">{{titulo}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>{{texto}}</p>
+            </div>
+        </div>
+    </div>
+</div>

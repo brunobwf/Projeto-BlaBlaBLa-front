@@ -1,0 +1,316 @@
+#landingPage {
+    flex-direction: column;
+    flex-flow: column;
+}
+
+#fundoParteUm {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../../assets/img/LandingPageFundo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: row;
+}
+
+#fundoParteDois {
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(180deg, #4A8FE7 48.44%, #19359B 82.81%, #1938AA 100%);
+}
+
+#fundoParteTres {
+    width: 98%;
+    height: 105vh;
+    flex-direction: column;
+}
+
+#fundoTransparente {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background: rgba(74, 143, 231, 0.42);
+    border-radius: 50px;
+}
+
+#fundoTransparente p {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vw;
+    /* line-height: 45px; */
+    text-align: center;
+    color: #000000;
+}
+
+#imagemLogo {
+    width: 27vw;
+    height: 60vh;
+}
+
+#intuitoPlataforma {
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 60%;
+    height: 90%;
+    background: white;
+    border-radius: 0px 0px 250px 0px;
+}
+
+#popups {
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 40%;
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    /* background: white; */
+}
+
+.elipse {
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    filter: drop-shadow(9px 7px 4px #090909);
+}
+
+#elipse1 {
+    background: #FF5746;
+}
+
+#elipse2 {
+    background-image: url('../../assets/img/popup2.png');
+    background-position: center;
+}
+
+#elipse3 {
+    background-image: url('../../assets/img/popup3.png');
+    background-position: center;
+}
+
+#elipse4 {
+    background-image: url('../../assets/img/popup4.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.linhapopups {
+    /* background-color: red; */
+    height: 40%;
+    width: 100%;
+}
+
+.pop {
+    /* margin-bottom:20px; */
+    /* background-color: blue;  */
+    width: 40%;
+    height: 90%;
+    display: flex;
+    /* flex-wrap:wrap; */
+    flex-direction: column;
+    text-align: start;
+}
+
+#elipse2, #elipse1 {
+    width: 97%;
+    height: 57%;
+}
+
+#elipse2 {
+    margin-left: 3.5%;
+}
+
+#elipse1 img {
+    width: 90%;
+    height: 90%;
+}
+
+#pop2, #pop4 {
+    margin-left: 8%;
+}
+
+.pop p {
+    /* background-color: red;; */
+    /* height: 92px; */
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    color: #F6F4FC;
+    text-shadow: 5px 4px 4px #000000;
+}
+
+#intuitoPlataforma h2 {
+    text-align: start;
+    width: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw;
+    /* line-height: 70px; */
+    color: #000000;
+}
+
+#intuitoPlataforma p {
+    height: auto;
+    width: 94%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5v;
+    text-align: justify;
+    color: #000000;
+}
+
+li {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5v;
+}
+
+#intuitoPlataforma a {
+    color: #4A8FE7;
+}
+
+#btnCadasro {
+    width: 23vw;
+    height: 20%;
+    background: #FF5746;
+    border-radius: 12px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    /* line-height: 30px; */
+    color: #F6F4FC;
+    margin-bottom: 2%;
+}
+
+#btnLogin {
+    width: 23vw;
+    height: 20%;
+    background: #2F5CFF;
+    border-radius: 12px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vw;
+    /* line-height: 30px; */
+    color: #141414;
+}
+
+button:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.appLink:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.pop:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.linhaInicial {
+    align-items: center;
+}
+
+.modal {
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+h5 {
+    color: #2F5CFF;
+    font-weight: bold;
+}
+
+#quemSomos {
+    margin-left: 18px;
+    margin-top: 28px;
+    /* background-color: purple; */
+}
+
+#mobile {
+    margin-left: 18px;
+    margin-top: 38px;
+}
+
+#quemSomos h5 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+    /* identical to box height */
+    color: #000000;
+}
+
+#quemSomos p {
+    /* background-color: red; */
+    width: 900px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    text-align: justify;
+    color: #000000;
+}
+
+#mobile h5 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw;
+    /* identical to box height */
+    color: #000000;
+}
+
+#mobile p {
+    width: 90%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7vw;
+    text-align: justify;
+    color: #000000;
+}
+
+#imgQuemSomos img {
+    width: 100%;
+    height: 100%;
+}
+
+#imgMobile img {
+    width: 100%;
+    height: 85%;
+}
+
+.hr {
+    margin-top: 28px;
+    width: 97%;
+    height: 2px;
+    background: #000000;
+}
+
+a:hover{
+    cursor: pointer;
+}

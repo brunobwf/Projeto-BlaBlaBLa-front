@@ -1,0 +1,152 @@
+
+.voltar {
+    width: 48px;
+    height: 48px;
+    margin-top: 8px;
+    margin-left: 8px;
+    background: rgba(74, 143, 231, 0.25);
+    align-items: center;
+    text-align: start;
+}
+
+.voltar i {
+    margin-top: 20%;
+    margin-left: -30%;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+button:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.fundoFormLogin {
+    margin-top: -2%;
+    width: 800px;
+    height: 500px;
+    background: rgba(74, 143, 231, 0.13);
+    border-radius: 50px;
+    flex-flow: column nowrap;
+}
+
+.entrarTxt {
+    padding-top: 10%;
+    padding-bottom: 3%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 57px;
+    color: #000000;
+    text-shadow: 8px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.person {
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 60px;
+    /* identical to box height */
+    color: #000000;
+    text-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.vpn_key {
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 60px;
+    /* identical to box height */
+    color: #000000;
+    text-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.linhaUsername {
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.linhaPassword {
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.linhaBotao {
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+.ahref {
+    padding-top: 6%;
+    padding-bottom: 8%;
+}
+
+::-webkit-input-placeholder {
+    color: #858585;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+#btnEntrar {
+    width: 200px;
+    height: 54px;
+    background: #4A8FE7;
+    box-shadow: 8px 10px 4px #7BAEEF;
+    border-radius: 12px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    color: #F6F4FC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#btnEsqSenha {
+    background: #E82915;
+    box-shadow: 8px 10px 4px rgba(255, 14, 14, 0.43);
+    border-radius: 12px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    /* identical to box height */
+    color: #F6F4FC;
+}
+
+a {
+    text-decoration: underline;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+a:hover{
+    font-style: italic;  
+    cursor: pointer;
+}
