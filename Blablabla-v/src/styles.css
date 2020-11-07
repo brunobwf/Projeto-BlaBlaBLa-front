@@ -8,3 +8,8 @@ body{
     padding-bottom: 80px;
     margin:0px;
 }
+
+
+p:hover,h5:hover,h2:hover,ul:hover{
+cursor: default;
+}

@@ -266,7 +266,7 @@ h5 {
 
 #quemSomos p {
     /* background-color: red; */
-    width: 900px;
+    width: 98%;
     font-family: Quicksand;
     font-style: normal;
     font-weight: 300;
@@ -311,6 +311,14 @@ h5 {
     background: #000000;
 }
 
-a:hover{
+#quemSomos a:hover{
+    cursor: pointer;
+}
+
+li{
+    text-align: justify;
+}
+
+ .click:hover{
     cursor: pointer;
 }
